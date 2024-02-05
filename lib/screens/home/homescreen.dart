@@ -56,7 +56,7 @@ class Homescreen extends StatelessWidget {
         body: SafeArea(
             child: Column(
           children: [
-            Flexible(flex: 8, child: Liststudent()),
+            Flexible(flex: 8, child: const Liststudent()),
             Flexible(
                 flex: 1,
                 child: Container(

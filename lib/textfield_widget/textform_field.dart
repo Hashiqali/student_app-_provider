@@ -87,6 +87,7 @@ class TextFieldWidget extends StatelessWidget {
                       height: size.height / 10,
                       width: size.width / 1.3,
                       child: TextFormField(
+                        autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value!.isEmpty) {
                             return 'Please enter name';
@@ -108,6 +109,7 @@ class TextFieldWidget extends StatelessWidget {
                       height: size.height / 10,
                       width: size.width / 1.3,
                       child: TextFormField(
+                        autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value!.isEmpty) {
                             return 'Please enter age';
@@ -130,6 +132,7 @@ class TextFieldWidget extends StatelessWidget {
                       height: size.height / 10,
                       width: size.width / 1.3,
                       child: TextFormField(
+                        autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value!.isEmpty) {
                             return 'Please enter phone number';
@@ -153,6 +156,7 @@ class TextFieldWidget extends StatelessWidget {
                       height: size.height / 10,
                       width: size.width / 1.3,
                       child: TextFormField(
+                        autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value!.isEmpty) {
                             return 'Please enter place';
